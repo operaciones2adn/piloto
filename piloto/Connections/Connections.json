@@ -1,0 +1,40 @@
+{
+  "518d915d-51c6-4a48-b8fd-f32167c2f5d2": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read",
+      "providers/PowerPlatform.Governance/Operations/Write",
+      "providers/PowerPlatform.Governance/Operations/Delete"
+    ],
+    "connectionRef": {
+      "apiTier": "Premium",
+      "authenticationType": "windowsAuthentication",
+      "displayName": "SQL Server",
+      "gatewayObjectIdHint": "ba32b603-0549-4340-a337-9716bde111be",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1683/1.0.1683.3686/sql/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sql",
+      "isOnPremiseConnection": true,
+      "parameterHints": {},
+      "parameterHintsV2": {},
+      "runtimePolicyName": "4cb03eb9-0894-420b-b871-01eb16dfc268",
+      "sharedConnectionId": "/providers/microsoft.powerapps/apis/shared_sql/connections/b9c359db5b744bc598d9fa83c5807ea8"
+    },
+    "datasets": {
+      "OPERACIONES2ADN,EntradasySalidasPiloto": {
+        "dataSources": {
+          "[dbo].[Transportista]": {
+            "tableName": "[dbo].[Transportista]"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "[dbo].[Transportista]"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "endpoints": [
+      "OPERACIONES2ADN,EntradasySalidasPiloto"
+    ],
+    "id": "518d915d-51c6-4a48-b8fd-f32167c2f5d2"
+  }
+}
