@@ -99,16 +99,16 @@
 
     "BrowseGallery1 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver5.0'":
         DelayItemLoading: =true
-        Height: =Parent.Height - Self.Y
+        Fill: =RGBA(0, 18, 107, 1)
+        Height: =165
         Items: =SortByColumns(Search([@'[dbo].[Transportista]'], TextSearchBox1.Text, Linea,NombreOperador,Placa), "Linea", If(SortDescending1, SortOrder.Descending, SortOrder.Ascending))
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         OnSelect: =Navigate(DetailScreen1, ScreenTransition.None)
         ShowScrollbar: =false
         TemplatePadding: =0
-        TemplateSize: =116
-        Width: =Parent.Width
-        Y: =TextSearchBox1.Y + TextSearchBox1.Height
+        TemplateSize: =0
+        Y: =857
         ZIndex: =9
 
         Title1 As label:
